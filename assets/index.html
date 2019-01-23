@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- CSS
+    CSS gets linked in the <head>
+    Bootstrap goes first and then your own css -->
+    <!-- Bootstrap (getbootstrap.com) --><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+  <div id="theme">
+    <header>Chicago Style</header>
+  </div>
+    <p id="directions">Welcome to Chicago Style the guessing game, the goal of the game is to make your points total equal mine. Each hometown team has a different value. Using any combination of teams, see if you can match my total. Good Luck!!</p>
+    </div>
+   <div id="scoring">
+    <h3>
+        <p> Wins:<span id="wins-text">0</p>
+        <p> Losses:<span id="losses-text">0</p>
+        <p> Chicago Total:<span id="chicago-total"></p>
+        <p> Player Total:<span id="player-total">0</p>  
+
+    </h3>
+   </div>
+  
+
+    <div class="buttons">
+        <input type="image" id="button-1" src="images/bears-image.png" />
+
+        <input type="image" id="button-2" src="images/sox-logo.png" />
+
+        <input type="image" id="button-3" src="images/bulls-logo.png" />
+
+        <input type="image" id="button-4" src="images/blackhawks-logo.png" />
+
+
+
+      </div>
+
+
+
+    </div>
+   
+    <!-- Javascript
+    Javascript goes at the very bottom just above JQuery (if used) of the <body> -->
+    <!-- JQuery --> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Your own JS --> <script src="javascript/game.js"></script>
+</body>
+</html>
